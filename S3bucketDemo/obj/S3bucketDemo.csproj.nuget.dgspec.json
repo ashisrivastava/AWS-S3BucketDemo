@@ -1,0 +1,88 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\AshishS\\AWS\\S3bucketDemo\\S3bucketDemo\\S3bucketDemo\\S3bucketDemo.csproj": {}
+  },
+  "projects": {
+    "C:\\AshishS\\AWS\\S3bucketDemo\\S3bucketDemo\\S3bucketDemo\\S3bucketDemo.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\AshishS\\AWS\\S3bucketDemo\\S3bucketDemo\\S3bucketDemo\\S3bucketDemo.csproj",
+        "projectName": "S3bucketDemo",
+        "projectPath": "C:\\AshishS\\AWS\\S3bucketDemo\\S3bucketDemo\\S3bucketDemo\\S3bucketDemo.csproj",
+        "packagesPath": "C:\\Users\\Ashish Srivastava\\.nuget\\packages\\",
+        "outputPath": "C:\\AshishS\\AWS\\S3bucketDemo\\S3bucketDemo\\S3bucketDemo\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Ashish Srivastava\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\AshishS\\LifePRO\\CustomerPortal\\CustomerPortal\\Common\\NugetPackage": {},
+          "C:\\AshishS\\RabitMQSample\\SagaWithRabbitMQ\\localnugetpkg": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "AWSSDK.Extensions.NETCore.Setup": {
+              "target": "Package",
+              "version": "[3.3.101, )"
+            },
+            "AWSSDK.S3": {
+              "target": "Package",
+              "version": "[3.5.0.3, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.5.1, )"
+            },
+            "Swashbuckle.AspNetCore.Annotations": {
+              "target": "Package",
+              "version": "[5.5.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
